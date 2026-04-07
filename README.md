@@ -38,15 +38,6 @@ T4 GPU - Batch size 32 - 5 epochs convergence
 | **EfficientNet-B0** | **Wound Classification** | **92.1%** | Forensic Pathology |
 | VGG16 | Image Forgery | 84.7% | Tampering Detection |
 
-## 🗂️ Repository Structure
-wound-classification-japan-police/
-├── README.md
-├── requirements.txt
-├── notebooks/
-│ └── 01_wound_classification.ipynb
-├── wound_classification_results.png
-└── data/ (mock gunshot/knife dataset)
-
 ## 🔬 Technical Contributions
 1. **EfficientNet-B0 Transfer Learning**: Features frozen, classifier retrained
 2. **Forensic Dataset Pipeline**: Gunshot/knife mock dataset (200 images)
